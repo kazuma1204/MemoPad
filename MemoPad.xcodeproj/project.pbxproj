@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466FFDF9F5B2D9CC2E8F5667 /* Pods_MemoPad_MemoPadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703FC2318E0E576EE633109A /* Pods_MemoPad_MemoPadUITests.framework */; };
+		5041E21573E680A1F8A7771F /* Pods_MemoPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02C3E9516292F3480FD236B /* Pods_MemoPad.framework */; };
+		6420C0F8249F0A4F00A2871C /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420C0F7249F0A4F00A2871C /* MemoViewController.swift */; };
+		6420C0FA249F0AD400A2871C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420C0F9249F0AD400A2871C /* ListViewController.swift */; };
 		64599D3D248CBF3B00A2A2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D3C248CBF3B00A2A2A5 /* AppDelegate.swift */; };
 		64599D3F248CBF3B00A2A2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D3E248CBF3B00A2A2A5 /* SceneDelegate.swift */; };
 		64599D41248CBF3B00A2A2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D40248CBF3B00A2A2A5 /* ViewController.swift */; };
@@ -15,6 +19,7 @@
 		64599D49248CBF3E00A2A2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64599D47248CBF3E00A2A2A5 /* LaunchScreen.storyboard */; };
 		64599D54248CBF3F00A2A2A5 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D53248CBF3F00A2A2A5 /* MemoPadTests.swift */; };
 		64599D5F248CBF3F00A2A2A5 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D5E248CBF3F00A2A2A5 /* MemoPadUITests.swift */; };
+		CA849BC00B528592A3EB3BA6 /* Pods_MemoPadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8FC482822FD440AB0B723 /* Pods_MemoPadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308AE9A29CC916BBEC7FAFA0 /* Pods-MemoPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPad.debug.xcconfig"; path = "Target Support Files/Pods-MemoPad/Pods-MemoPad.debug.xcconfig"; sourceTree = "<group>"; };
+		44E8FC482822FD440AB0B723 /* Pods_MemoPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoPadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD429D7B6D28DC39671CD0B /* Pods-MemoPadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPadTests.release.xcconfig"; path = "Target Support Files/Pods-MemoPadTests/Pods-MemoPadTests.release.xcconfig"; sourceTree = "<group>"; };
+		565453F5DB9FAD16992ED725 /* Pods-MemoPad-MemoPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPad-MemoPadUITests.release.xcconfig"; path = "Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6420C0F7249F0A4F00A2871C /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		6420C0F9249F0AD400A2871C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		64599D39248CBF3B00A2A2A5 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64599D3C248CBF3B00A2A2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64599D3E248CBF3B00A2A2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		64599D5A248CBF3F00A2A2A5 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64599D5E248CBF3F00A2A2A5 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		64599D60248CBF3F00A2A2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703FC2318E0E576EE633109A /* Pods_MemoPad_MemoPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoPad_MemoPadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C3E9516292F3480FD236B /* Pods_MemoPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4EF21FEF7A922528D8792 /* Pods-MemoPadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPadTests.debug.xcconfig"; path = "Target Support Files/Pods-MemoPadTests/Pods-MemoPadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7421EACF7D4DF6764A92393 /* Pods-MemoPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPad.release.xcconfig"; path = "Target Support Files/Pods-MemoPad/Pods-MemoPad.release.xcconfig"; sourceTree = "<group>"; };
+		D7459D2B097EACB0A6DFFEDE /* Pods-MemoPad-MemoPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPad-MemoPadUITests.debug.xcconfig"; path = "Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5041E21573E680A1F8A7771F /* Pods_MemoPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA849BC00B528592A3EB3BA6 /* Pods_MemoPadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466FFDF9F5B2D9CC2E8F5667 /* Pods_MemoPad_MemoPadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				64599D52248CBF3F00A2A2A5 /* MemoPadTests */,
 				64599D5D248CBF3F00A2A2A5 /* MemoPadUITests */,
 				64599D3A248CBF3B00A2A2A5 /* Products */,
+				C879E2A2FAA1B611AEA9453C /* Pods */,
+				C3F6CA5BE4D2D86FC1EA2BD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +123,8 @@
 				64599D3C248CBF3B00A2A2A5 /* AppDelegate.swift */,
 				64599D3E248CBF3B00A2A2A5 /* SceneDelegate.swift */,
 				64599D40248CBF3B00A2A2A5 /* ViewController.swift */,
+				6420C0F7249F0A4F00A2871C /* MemoViewController.swift */,
+				6420C0F9249F0AD400A2871C /* ListViewController.swift */,
 				64599D42248CBF3B00A2A2A5 /* Main.storyboard */,
 				64599D45248CBF3E00A2A2A5 /* Assets.xcassets */,
 				64599D47248CBF3E00A2A2A5 /* LaunchScreen.storyboard */,
@@ -128,6 +151,29 @@
 			path = MemoPadUITests;
 			sourceTree = "<group>";
 		};
+		C3F6CA5BE4D2D86FC1EA2BD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02C3E9516292F3480FD236B /* Pods_MemoPad.framework */,
+				703FC2318E0E576EE633109A /* Pods_MemoPad_MemoPadUITests.framework */,
+				44E8FC482822FD440AB0B723 /* Pods_MemoPadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C879E2A2FAA1B611AEA9453C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				308AE9A29CC916BBEC7FAFA0 /* Pods-MemoPad.debug.xcconfig */,
+				C7421EACF7D4DF6764A92393 /* Pods-MemoPad.release.xcconfig */,
+				D7459D2B097EACB0A6DFFEDE /* Pods-MemoPad-MemoPadUITests.debug.xcconfig */,
+				565453F5DB9FAD16992ED725 /* Pods-MemoPad-MemoPadUITests.release.xcconfig */,
+				AFC4EF21FEF7A922528D8792 /* Pods-MemoPadTests.debug.xcconfig */,
+				4DD429D7B6D28DC39671CD0B /* Pods-MemoPadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64599D63248CBF3F00A2A2A5 /* Build configuration list for PBXNativeTarget "MemoPad" */;
 			buildPhases = (
+				D730C305339DA674060034A1 /* [CP] Check Pods Manifest.lock */,
 				64599D35248CBF3A00A2A2A5 /* Sources */,
 				64599D36248CBF3A00A2A2A5 /* Frameworks */,
 				64599D37248CBF3A00A2A2A5 /* Resources */,
+				6F7B5F8AFF2C71AE700F7276 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64599D66248CBF3F00A2A2A5 /* Build configuration list for PBXNativeTarget "MemoPadTests" */;
 			buildPhases = (
+				E25901A11038FEE45CA8BEFF /* [CP] Check Pods Manifest.lock */,
 				64599D4B248CBF3F00A2A2A5 /* Sources */,
 				64599D4C248CBF3F00A2A2A5 /* Frameworks */,
 				64599D4D248CBF3F00A2A2A5 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64599D69248CBF3F00A2A2A5 /* Build configuration list for PBXNativeTarget "MemoPadUITests" */;
 			buildPhases = (
+				E446357977723E8B8CF99BF4 /* [CP] Check Pods Manifest.lock */,
 				64599D56248CBF3F00A2A2A5 /* Sources */,
 				64599D57248CBF3F00A2A2A5 /* Frameworks */,
 				64599D58248CBF3F00A2A2A5 /* Resources */,
+				E4BF2544EBFB1A69E7236989 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +305,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7B5F8AFF2C71AE700F7276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoPad/Pods-MemoPad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoPad/Pods-MemoPad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MemoPad/Pods-MemoPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D730C305339DA674060034A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25901A11038FEE45CA8BEFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoPadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E446357977723E8B8CF99BF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoPad-MemoPadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BF2544EBFB1A69E7236989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64599D35248CBF3A00A2A2A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420C0F8249F0A4F00A2871C /* MemoViewController.swift in Sources */,
 				64599D41248CBF3B00A2A2A5 /* ViewController.swift in Sources */,
 				64599D3D248CBF3B00A2A2A5 /* AppDelegate.swift in Sources */,
+				6420C0FA249F0AD400A2871C /* ListViewController.swift in Sources */,
 				64599D3F248CBF3B00A2A2A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,15 +588,19 @@
 		};
 		64599D64248CBF3F00A2A2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308AE9A29CC916BBEC7FAFA0 /* Pods-MemoPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = G539XY2KZV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.adachi.kazuma.MemoPad;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.adachi.kazuma.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,15 +609,19 @@
 		};
 		64599D65248CBF3F00A2A2A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7421EACF7D4DF6764A92393 /* Pods-MemoPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = G539XY2KZV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.adachi.kazuma.MemoPad;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.adachi.kazuma.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +630,7 @@
 		};
 		64599D67248CBF3F00A2A2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC4EF21FEF7A922528D8792 /* Pods-MemoPadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +652,7 @@
 		};
 		64599D68248CBF3F00A2A2A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD429D7B6D28DC39671CD0B /* Pods-MemoPadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +674,7 @@
 		};
 		64599D6A248CBF3F00A2A2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7459D2B097EACB0A6DFFEDE /* Pods-MemoPad-MemoPadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +694,7 @@
 		};
 		64599D6B248CBF3F00A2A2A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565453F5DB9FAD16992ED725 /* Pods-MemoPad-MemoPadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
