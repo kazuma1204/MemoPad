@@ -94,7 +94,19 @@ class MemoViewController: UIViewController,UITextFieldDelegate {
         
     }
     
-    @IBAction func cancel() {
+    
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+         
+          self.view.endEditing(true)
+    }
+//  他のところを押すことで、キーボードを下げる
+    
+    
+    
+    
+    
+    @IBAction func cancel() { 
         
         if  banme == -1  {
             print("pass: -1")

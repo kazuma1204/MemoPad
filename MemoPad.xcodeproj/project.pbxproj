@@ -11,6 +11,8 @@
 		5041E21573E680A1F8A7771F /* Pods_MemoPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02C3E9516292F3480FD236B /* Pods_MemoPad.framework */; };
 		6420C0F8249F0A4F00A2871C /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420C0F7249F0A4F00A2871C /* MemoViewController.swift */; };
 		6420C0FA249F0AD400A2871C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420C0F9249F0AD400A2871C /* ListViewController.swift */; };
+		643E482E2529616100B7C4A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643E482C2529616100B7C4A4 /* TableViewCell.swift */; };
+		643E482F2529616100B7C4A4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643E482D2529616100B7C4A4 /* TableViewCell.xib */; };
 		64599D3D248CBF3B00A2A2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D3C248CBF3B00A2A2A5 /* AppDelegate.swift */; };
 		64599D3F248CBF3B00A2A2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D3E248CBF3B00A2A2A5 /* SceneDelegate.swift */; };
 		64599D41248CBF3B00A2A2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64599D40248CBF3B00A2A2A5 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		565453F5DB9FAD16992ED725 /* Pods-MemoPad-MemoPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoPad-MemoPadUITests.release.xcconfig"; path = "Target Support Files/Pods-MemoPad-MemoPadUITests/Pods-MemoPad-MemoPadUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6420C0F7249F0A4F00A2871C /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		6420C0F9249F0AD400A2871C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		643E482C2529616100B7C4A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		643E482D2529616100B7C4A4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		64599D39248CBF3B00A2A2A5 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64599D3C248CBF3B00A2A2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64599D3E248CBF3B00A2A2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				6420C0F7249F0A4F00A2871C /* MemoViewController.swift */,
 				6420C0F9249F0AD400A2871C /* ListViewController.swift */,
 				64599D42248CBF3B00A2A2A5 /* Main.storyboard */,
+				643E482C2529616100B7C4A4 /* TableViewCell.swift */,
+				643E482D2529616100B7C4A4 /* TableViewCell.xib */,
 				64599D45248CBF3E00A2A2A5 /* Assets.xcassets */,
 				64599D47248CBF3E00A2A2A5 /* LaunchScreen.storyboard */,
 				64599D4A248CBF3E00A2A2A5 /* Info.plist */,
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64599D49248CBF3E00A2A2A5 /* LaunchScreen.storyboard in Resources */,
+				643E482F2529616100B7C4A4 /* TableViewCell.xib in Resources */,
 				64599D46248CBF3E00A2A2A5 /* Assets.xcassets in Resources */,
 				64599D44248CBF3B00A2A2A5 /* Main.storyboard in Resources */,
 			);
@@ -416,6 +423,7 @@
 				6420C0F8249F0A4F00A2871C /* MemoViewController.swift in Sources */,
 				64599D41248CBF3B00A2A2A5 /* ViewController.swift in Sources */,
 				64599D3D248CBF3B00A2A2A5 /* AppDelegate.swift in Sources */,
+				643E482E2529616100B7C4A4 /* TableViewCell.swift in Sources */,
 				6420C0FA249F0AD400A2871C /* ListViewController.swift in Sources */,
 				64599D3F248CBF3B00A2A2A5 /* SceneDelegate.swift in Sources */,
 			);
@@ -592,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G539XY2KZV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +621,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G539XY2KZV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

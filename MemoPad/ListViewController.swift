@@ -26,6 +26,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        navigationController?.setNavigationBarHidden(false, animated: false)
         navigationItem.rightBarButtonItem = editButtonItem
         
         if ud.object(forKey: "title\(tagNumber)") != nil && ud.object(forKey: "content\(tagNumber)") != nil {
@@ -179,11 +180,26 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     
-    //    テキストの一部の色を変える(メモ記入欄）
+//    ✅テキストの一部の色を変える(メモ記入欄）
+//    　最初の画面のマルのグレーの部分を濃くしたほうが中の文字が見やすくなる
+//    ✅メモ検索機能
+//    みぎにページスライド
+//    ✅ジャンル無限複製
+//　　　editがスライドでできたら便利？
+//　　　メモの情報構成は考え直しても良さそう
+//    カテゴリから探索もできるし、一覧もあるといいね
+//　　　✅メモ一覧のページをkeepメモみたいにする
     
-    //    セルの移動 → セルの移動と同時に行数を変化させるメソッドを追加
+    
+//    差別化ポイントをしっかりと出す
+   
     
     
+    
+    
+    
+//    アイデア：毎日　〇〇祭り　みたいな。毎日わかる
+//    LIT TikTok集客してんのかね？
     
     
     
@@ -199,5 +215,3 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
 }
 
-
-//　セーフエリア　メモ画面　メモ画面のバツボタン使えないぴえん

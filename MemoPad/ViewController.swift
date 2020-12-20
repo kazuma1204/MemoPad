@@ -18,12 +18,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-     
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         for button in bottunCollection {
-            button.layer.cornerRadius = 50
+            button.layer.cornerRadius = 40
             button.backgroundColor = UIColor(red: 188/225, green: 186/225, blue: 190/225, alpha: 1.0)
             tagNumber = button.tag
             var genre = ud.object(forKey: "genre\(tagNumber)") as? String
